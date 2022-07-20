@@ -1,0 +1,369 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+}
+
+main {
+  width: 100%;
+  min-height: 100vh;
+}
+
+nav {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  height: 16vh;
+  align-items: center;
+}
+
+.links a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
+.pink-btn{
+  background-color: #F96C65;
+  border-radius: 100px;
+  color: white;
+  box-shadow: 2px 4px 20px #f96c6532;
+}
+
+#contact-btn{
+  padding: 12px 30px  ;
+  color: white;
+}
+
+.hero-section {
+  height: 90vh;
+  width: 80%;
+  /* background-color: aqua; */
+  background-image: url('./assets/bg.png');
+  border-radius: 20px;
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center;
+ 
+}
+
+.hero-section-overlay{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.4);
+  padding-top: 15rem;
+  padding-left: 5rem;
+  border-radius: 20px;
+
+}
+
+.hero-section h1 {
+  font-weight: 500;
+  color: #f97e78;
+  line-height: 4.8rem;
+  font-size: 3.5rem;
+}
+
+.hero-section h3 {
+  color: white;
+  width: 50%;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.7rem;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+
+.mail-section{
+    background-color: white;
+    position: relative;
+    transform: translate(0,-50%);
+    width: 60%;
+    margin: 0 auto;
+    box-shadow: 4px 4px 16px rgba(191, 191, 191, 0.15);
+    height: 30vh;
+    border-radius: 20px;
+    padding: 40px 70px;
+    font-weight: 500;
+}
+
+.mail-section p{
+  text-align: center;
+  font-size: 21px;
+
+}
+
+section{
+    width: 80%;
+    margin: 0 auto;
+}
+section h1, p{
+    text-align: center;
+}
+
+section p{
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.cards{
+    height: 800px;
+    /* background-color: antiquewhite; */
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 8rem;
+}
+
+.card-image{
+    height: 100%;
+    width: 700px;
+    /* background-color: aqua; */
+    border-radius: 20px;
+}
+
+.card-image img{
+  width: 100%;
+  height: 100%;
+}
+
+/* .card-content h1,p{
+    text-align: left;
+} */
+
+.card-content>h1{
+  font-size: 5rem;
+  text-align: left;
+  line-height: 6rem;
+  font-weight: 700;
+  color: #F96C65;
+}
+.card-content{
+    /* display: inline-block; */
+    width: 45%;
+    height:50%;
+    /* background-color: gold; */
+    transform: translate(0,50%);
+}
+.card-content>p{
+  margin-top: 1rem;
+  text-align: left;
+  font-size:2rem;
+}
+
+.pink-btn{
+    background-color:  #F96C65;
+    padding: 20px 50px;
+    box-shadow: 0px 4px 15px rgba(249, 108, 101, 0.5);
+    border-radius: 30px;
+    border: none;
+    margin: 2rem 0;
+    color: white;
+}
+
+.box{
+    height: 280px;
+    background: #FEB9B6;
+    border-radius: 10px;
+    margin: 2rem auto;
+}
+#layer1{
+    width: 80%;
+}
+#layer2{
+    background-color: #FFC7C5;
+    position: relative;
+    right: 10px;
+    top: 10px;
+    width: 100%;
+}
+
+#layer3{
+    width: 100%;
+    background-color: #FFDFDD;;
+    position: relative;
+    right: 10px;
+    top: 10px;
+    text-align: center;
+}
+
+#layer3 p{
+    text-align: center;
+}
+.heading{
+  font-weight: 700;
+  font-size: 3rem;
+}
+.form{
+  text-align: center;
+}
+
+.form input[type="email"]{
+  margin-top: 2rem;
+  width: 600px;
+  border: none;
+  background-color: #F4F4F4;
+  padding:12px 30px;
+  border-radius: 20px;
+}
+
+.form input[type="submit"]{
+ 
+  padding:12px 60px;
+  margin-left: 20px;
+}
+
+.booking-section{
+  text-align: center;
+  width: 100%;
+}
+
+.booking-cards{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.booking-card{
+  background-color:#F4F4F4; 
+  width: 30%;
+  position: relative;
+  padding: 40px;
+
+}
+
+.batch{
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  background-color: yellow;
+  width: 120px;
+  height: 30px;
+  font-size: 10px;
+}
+
+.booking-card h2{
+  margin-top: 30px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.moon{
+  font-size: 20px;
+  margin: 10px 0;
+}
+.checkbox{
+  display: flex;
+  align-items: center;
+}
+
+.book-btn{
+  width: 100%;
+  height: 50px;
+  background-color: #F96C65;
+  color: white;
+  border: none;
+}
+
+#reward{
+  text-align: center;
+  width: 84%;
+  margin: 0 auto;
+}
+
+#rewards{
+  display: flex;
+  min-height: 300px;
+  justify-content: space-around;
+  margin-top: 40px;
+ 
+}
+
+.reward-elem{
+  height: 250px;
+  width: 200px;
+}
+
+.reward-elem img{
+  width: 100%;
+}
+
+#reward a{
+  display: block;
+  margin: 0 auto;
+  color:#F96C65;
+}
+
+.customer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+#review-section{
+  width: 84%;
+  margin: 0 auto;
+  min-height: 400px;
+  text-align: center;
+}
+.customer-card{
+  background-color: #f6f6f6;
+  height: 600px;
+  width: 550px;
+  padding: 40px;
+}
+
+.customer-review{
+  width: 50%;
+}
+
+#teams{
+  width: 84%;
+  margin: 0 auto;
+}
+
+#teams h1{
+  text-align: center;
+}
+
+.teams-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 400px;
+  /* background-color: #F96C65; */
+  width: 100%;
+}
+
+.team-member{
+  height: 100%;
+  width: 300px;
+  /* background-color: grey; */
+  text-align: center;
+}
+
+.team-member-img{
+  height: 80% ;
+  width: 100%;
+  background-color: #FEB9B6;
+}
+
+footer{
+  width: 100%;
+  background-color: grey;
+}
