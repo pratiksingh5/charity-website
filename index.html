@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
     <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -19,7 +20,7 @@
     <main>
         <nav>
             <div class="logo">
-                LOGO
+                <img src="./assets/logo.png" alt="logo" width="90px">
             </div>
             <div class="links">
                 <a href="#">Home</a>
@@ -36,8 +37,7 @@
             </div>
         </div>
         <div class="mail-section">
-            <p><em> “Pre-book your stay or take home authentic Konkan produce, and support the cause of sustainable
-                    vacations”.</em></p>
+            <p><em> “Prebook your stay at a early access discount and support the cause of sustainable vacations”.</em></p>
             <div class="form">
                 <input type="email" placeholder="Email Address">
                 <input type="submit" value="Join" class="pink-btn">
@@ -47,8 +47,7 @@
         <section>
             <h1 class="heading">Bespoke Experiences</h1>
             <br>
-            <p>At The Pebble Stay opt for a sustainable lifestyle and reduce your carbon footprint. Moreover, you can
-                experience life and enjoy the authentic Konkan lifestyle.
+            <p>At The Pebble Stay, indulge yourself in your happy place and reduce your carbon footprint.
             </p>
             <br>
 
@@ -103,7 +102,47 @@
                 </div>
             </div>
         </div>
+      <br>
+      <br>
+      <br>
 
+      <div id="benefits">
+        <h1 class="heading">Benefits for early access members</h1>
+        <br>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col col-lg-3">
+                <div class="icon"><i class="ri-number-1"></i></div>
+                <br>
+                <br>
+                <p>Additional discounts and packages for all the future bookings for current and all future properties
+                </p>
+            </div>
+            <div class="col col-lg-3">
+                <div class="icon"><i class="ri-service-line"></i></div>
+                <br>
+                <br>
+                <p>Early access to all future properties of The Pebble Stay
+
+                </p>
+            </div>
+            <div class="col col-lg-3">
+                <div class="icon"><i class="ri-service-line"></i></div>
+                <br>
+                <br>
+                <p>A special authentic Konkan style gift box 
+                </p>
+            </div>
+            <div class="col col-lg-3">
+                <div class="icon"><i class="ri-service-line"></i></div>
+                <br>
+                <br>
+                <p>Special early access to farm fresh Devgad Alphonso mangoes at a discount
+                </p>
+            </div>
+        </div>
+      </div>
 
         <div class="booking-section">
             <h1 class="heading">How can you contribute</h1>
@@ -166,7 +205,7 @@
         <br>
         <br>
 
-        <div id="reward">
+        <!-- <div id="reward">
             <h2 class="sub-heading">Reward-Based Program</h2>
             <br>
             <p>Contribute financially and avail of exclusive rewards like having your name on the “Wall of Fame” at the
@@ -188,30 +227,66 @@
             </div>
 
             <a href="">Click here to know more about rewards</a>
-        </div>
+        </div> -->
+       
         <br>
-        <br>
+        <style>
+            .customer-card{
+                background-color: #F6F6F6;
+                height: 700px;
+                border-radius: 20px;
+                width: 90%;
+                margin-top: 4rem;
+                padding-top: 5rem;
+                padding-left: 5rem;
+                padding-right: 5rem;
+            }
+            .customer-img{
+                height: 85%;
+                width: 100%;
+                background-color: antiquewhite;
+            }
+            .star i{
+                font-size: 24px;
+            }
+            .date{
+                color: grey;
+                text-align: left;
+                padding-left: 20px;
+                /* background-color: antiquewhite; */
+            }
+        </style>
         <div id="review-section">
             <h1 class="heading">Customer Reviews</h1>
             <p>Hear what our customers have to say about us</p>
-            <div class="customer">
-                <div class="customer-card">
-                    <div class="customer-card-img">
-                        <img src="" alt="">
+            <div class="row customer">
+                <div class="col col-md-6">
+                    <div class="customer-card">
+                        <div class="customer-img"></div>
+                        <div class="customer-text" style="display: flex; justify-content:space-between; margin-top: 30px;">
+                            <h3>Robin Johnson</h3>
+                            <div class="star">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="customer-review">
-                    <p>Would highly recommend this place for a relaxed, laid back vacation. It's away from the hustle,
-                        and waking up to the sea view is the best thing ever! Kunal does a great job at making sure you
-                        are comfortable and is always on his feet for anything you may need. Rooms are tastefully
-                        decorated and all the little things are taken care of.</p>
-                    <p class="light">Posted on : 24 Feb 2021</p>
+                <div class="col col-md-6">
+                    <p style="text-align: left; width:80%; font-size:20px; padding-left:20px;">Would highly recommend this place for a relaxed, laid back vacation. It's away from the hustle, and waking up to the sea view is the best thing ever! Kunal does a great job at making sure you are comfortable and is always on his feet for anything you may need. Rooms are tastefully decorated and all the little things are taken care of.</p>
+                    <h5 class="date">Posted on : 24 Feb 2021</h5>
                 </div>
             </div>
         </div>
 
         <div id="teams">
             <h1 class="heading">Meet Our Team</h1>
+            <br>
+            <br>
+            <br>
             <div class="teams-container">
                 <div class="team-member">
                     <div class="team-member-img">
@@ -219,84 +294,87 @@
                     <h4>Ninad Kulkarni</h4>
 
                     <div class="social">
-                      <span>A</span>
-                      <span>A</span>
-                      <span>A</span>
-                    </div>
+                        <span><a href="#"><i class="ri-facebook-box-fill"></i></a></span>
+                        <span><a href="#"><i class="ri-instagram-fill"></i></a></span>
+                        <span><a href="#"><i class="ri-linkedin-box-fill"></i></a></span>
+                      </div>
                 </div>
                 <div class="team-member">
                     <div class="team-member-img">
                         
                     </div>
-                    <h4>Ninad Kulkarni</h4>
+                    <h4>Saikrishna Rane</h4>
                     <div class="social">
-                      <span>A</span>
-                      <span>A</span>
-                      <span>A</span>
-                    </div>
+                        <span><a href="#"><i class="ri-facebook-box-fill"></i></a></span>
+                        <span><a href="#"><i class="ri-instagram-fill"></i></a></span>
+                        <span><a href="#"><i class="ri-linkedin-box-fill"></i></a></span>
+                      </div>
                 </div>
                 <div class="team-member">
                     <div class="team-member-img">
                        
                     </div>
-                    <h4>Ninad Kulkarni</h4>
+                    <h4>Kunal Sabale</h4>
                     <div class="social">
-                      <span>A</span>
-                      <span>A</span>
-                      <span>A</span>
+                      <span><a href="#"><i class="ri-facebook-box-fill"></i></a></span>
+                      <span><a href="#"><i class="ri-instagram-fill"></i></a></span>
+                      <span><a href="#"><i class="ri-linkedin-box-fill"></i></a></span>
                     </div>
                 </div>
             </div>
         </div>
     </main>
+    <br>
+    <br>
+    <br>
    <footer>
     <div class="container">
         <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
-          <div class="col mb-3">
-            <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
-              <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-            </a>
-            <p class="text-muted">© 2022</p>
+          <div class="col mb-4" style="text-align: center;">
+            <span style="color: #F96C65;">DEVGAD, KONKAN.</span>
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30623.531403275527!2d73.37043177416288!3d16.376945976241373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bea9c791e0277d9%3A0x181ba0a6cdbe2166!2sDevgad%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1658662910889!5m2!1sen!2sin" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+           
           </div>
       
-          <div class="col mb-3">
+          <div class="col mb-2">
       
           </div>
       
+        
           <div class="col mb-3">
-            <h5>Section</h5>
+            <h5 style="color: white;">Quick Links:</h5>
             <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">OUR TEAM</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">CONTACT</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">REVIEWS</a></li>
               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">JOIN US</a></li>
             </ul>
           </div>
       
           <div class="col mb-3">
-            <h5>Section</h5>
+            <h5 style="color: white;">Connect with us:</h5>
             <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><i class="ri-facebook-box-fill"></i>FACEBOOK</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><i class="ri-instagram-fill"></i>INSTAGRAM</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><i class="ri-twitter-fill"></i>TWITTER</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><i class="ri-mail-fill"></i>MAIL</a></li>
+          
             </ul>
           </div>
-      
-          <div class="col mb-3">
-            <h5>Section</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-            </ul>
-          </div>
+
+
         </footer>
+        <div id="end" style="display: flex; align-items: center; justify-content:center">
+            <p>To know more about us, visit our official page on <a href="https://thepebblestay.com/" target="_blank" style="color: #F96C65;">https://thepebblestay.com/</a>
+          </p>
+          </div>
+          <br>
+          <br>
       </div>
+
    </footer>
 </body>
 

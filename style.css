@@ -335,6 +335,8 @@ section p{
 #teams{
   width: 84%;
   margin: 0 auto;
+  margin-top: 100px;
+  /* background-color: #FEB9B6; */
 }
 
 #teams h1{
@@ -346,8 +348,29 @@ section p{
   align-items: center;
   justify-content: space-around;
   height: 400px;
+  flex-wrap: wrap;
   /* background-color: #F96C65; */
   width: 100%;
+}
+
+#benefits{
+  width: 84%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  margin-top: 50px;
+  /* background-color: grey; */
+}
+#benefits h1{
+  text-align: center;
+
+}
+#benefits .icon i{
+  font-size: 40px;
+}
+
+#benefits p{
+  font-size: 20px;
+  text-align: left;
 }
 
 .team-member{
@@ -361,9 +384,44 @@ section p{
   height: 80% ;
   width: 100%;
   background-color: #FEB9B6;
+  margin-bottom: 1.6rem;
+  border-radius: 10px;
 }
 
 footer{
   width: 100%;
-  background-color: grey;
+  background-color: #252527;
 }
+
+#map{
+  background-color: white;
+  height: 300px;
+  width: 300px;
+}
+
+footer ul>li{
+  color: #F96C65 !important;
+}
+
+.nav-link{
+  color: #F96C65 !important;
+  display: flex;
+  align-items: center;
+}
+
+.nav-link i{
+  margin-right: 20px;
+}
+
+#end{
+  /* background-color: #FEB9B6; */
+  color: white;
+}
+
+.social span a{
+  text-decoration: none;
+  color: #F96C65;
+  font-size: 24px;
+  margin: 0 10px;
+}
+
